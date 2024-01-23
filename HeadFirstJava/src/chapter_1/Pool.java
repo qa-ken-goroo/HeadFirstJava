@@ -21,9 +21,7 @@ public class Pool {
             if (x == 1) {
 
             }
-            if () {
 
-            }
             System.out.println("");
 
         }
