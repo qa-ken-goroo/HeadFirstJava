@@ -91,8 +91,8 @@
 }
 ```
 
-"element":"some value"  - соответствует условию
-"element":"other value"  - не соответствует условию
+> "element":"some value"  - соответствует условию
+> "element":"other value"  - не соответствует условию
 
 <i>Пример: проверяем, что decisionCdExt = "Proceed"</i>
 
