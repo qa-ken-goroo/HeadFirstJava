@@ -83,16 +83,19 @@
 <details>
 <summary>EQUALS и NOT_EQUALS</summary>
 Если нужно, чтобы element был равен "some value", то в эталонном файле должно быть указано следующее
+
 ```
 "element": {
   "matchType": "equals",
   "value":"some value"
 }
 ```
+
 "element":"some value"  - соответствует условию
 "element":"other value"  - не соответствует условию
 
 Пример: проверяем, что decisionCdExt = "Proceed"
+
 ```
 {
   "decisionResult": {
@@ -107,7 +110,7 @@
 
 
 <details>
-<summary>EQUALS_ - "Мягкое" равенство: сравнение будет производиться только по значениям, указанным в объекте <b>value</b> </summary>
+<summary>EQUALS_ - "Мягкое" равенство: сравнение будет производиться только по значениям, указанным в объекте <b>value</b></summary>
 ```
 "element": {
   "matchType": "equals",
